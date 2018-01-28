@@ -21,17 +21,20 @@ h1, h2, h3, p, a, span {
     src: url(..//fonts/Graphik-Semibold-Web.woff);
 }
 .main-container {
-    max-width: 1440px;
+    max-width: 100%;
     margin: 0 auto;
 }
 .header {
     width: 100%;
+    max-width: 1440px;
     margin: 0 auto;
     height: 83px;
     display: flex;
     justify-content: space-between;
     background-color: #ffffff;
     box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1000;
 }
 .header__left {
     width: 192px;
@@ -85,7 +88,6 @@ h1, h2, h3, p, a, span {
     text-transform: uppercase;
 }
 .content-container {
-    max-width: 1440px;
     margin: 0 auto;
 }
 .content {
@@ -93,10 +95,19 @@ h1, h2, h3, p, a, span {
     margin: 0 auto;
     height: 100%;
 }
+.block1 {
+    position: relative;
+    z-index: 100;
+}
+.block1__wrap {
+    width: 100%;
+    background-color: #f8f8f8;
+}
 .banner-top {
     width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
     height: 374px;
-    background-color: #f8f8f8;
     background-image: url("..//images/ponytail-extended-fade.png");
     background-repeat: no-repeat;
     background-position: right;
@@ -104,15 +115,15 @@ h1, h2, h3, p, a, span {
 .banner-top__block {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     height: 100%;
-    padding: 70px 39px;
+    padding: 83px 39px 0;
 }
 .banner-top__but {
     width: 242px;
     height: 60px;
     border-radius: 2px;
     border: solid 2px #395aa8;
+    margin-left: 2px;
 }
 .banner-top__link {
     display: block;
@@ -153,6 +164,8 @@ h1, h2, h3, p, a, span {
     letter-spacing: 0.4px;
     text-align: left;
     color: #454545;
+    padding-top: 5px;
+    padding-bottom: 37px;
 }
 .block2__img {
     width: 48px;
@@ -179,6 +192,8 @@ h1, h2, h3, p, a, span {
     letter-spacing: normal;
     text-align: center;
     color: #454545;
+    padding-top: 9px;
+    padding-bottom: 4px;
 }
 .block2__txt {
     font-family: Graphik;
@@ -206,11 +221,194 @@ h1, h2, h3, p, a, span {
 .block2-content {
     display: flex;
     flex-direction: row;
+    padding: 39px 39px;
+    justify-content: space-around;
 }
 .block2__wrap {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-
+.block3-content {
+    width: 999px;
+    height: 218px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-top: 27px;
+}
+.block3__img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("..//images/band-wrap-trans.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 100;
+}
+.block3__background {
+    position: absolute;
+    right: 0;
+    width: 522px;
+    z-index: 10;
+    height: 0;
+    border-bottom: 217px solid #7ff8e1;
+    border-left: 52px solid transparent;
+}
+.block3__txt1 {
+    font-family: Graphik;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.13;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #454545;
+    z-index: 1000;
+    padding-left: 5.1vw;
+    width: 30%;
+}
+.block3__txt2 {
+    z-index: 1000;
+    font-family: Graphik;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    padding-right: 4vw;
+    width: 36%;
+}
+.block4-content {
+    display: flex;
+    flex-direction: row;
+    margin: 0 28px;
+    justify-content: space-between;
+    margin-top: 9px;
+}
+.block4__img {
+    width: 320px;
+    height: 190px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.block4__wrap {
+    margin: 0;
+    width: 32%;
+}
+.block4__img1 {
+    background-image: url("..//images/group-7.png");
+}
+.block4__img2 {
+    background-image: url("..//images/group-29.png");
+}
+.block4__img3 {
+    background-image: url("..//images/group-6.png");
+}
+.block4__title {
+    font-family: Graphik;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #454545;
+    padding-top: 9px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+}
+.block4__txt {
+    font-family: Graphik;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    text-align: left;
+    color: #454545;
+    padding-left: 2px;
+}
+.block5-content {
+    display: flex;
+    flex-direction: row;
+    margin: 0 27px;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.block5__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.block5__left1 {
+    width: 320px;
+    height: 240px;
+    background-image: url("..//images/group-5.png");
+}
+.block5__left2 {
+    width: 320px;
+    height: 240px;
+    background-image: url("..//images/group-30.png");
+}
+.block5__right {
+    width: 660px;
+    height: 498px;
+    background-image: linear-gradient(162deg, #395aa8, #6b94d3);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 0 8vw;
+}
+.block5__title1 {
+    font-family: Graphik;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.13;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #ffffff;
+    padding-top: 96px;
+    padding-bottom: 14px;
+}
+.block5__txt {
+    font-family: Graphik;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    padding-top: 14px;
+}
+.block5__title2 {
+    font-family: Graphik;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.block6 {
+    background-color: #f8f8f8;
+}
+.block6__left {
+    width: 144px;
+    height: 144px;
+    background-image: url("/images/robert-gamburd.png");
+}
