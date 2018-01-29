@@ -379,7 +379,7 @@ h1, h2, h3, p, a, span {
     text-align: left;
     color: #ffffff;
     padding-top: 96px;
-    padding-bottom: 14px;
+    padding-bottom: 12px;
 }
 .block5__txt {
     font-family: Graphik;
@@ -391,7 +391,6 @@ h1, h2, h3, p, a, span {
     letter-spacing: normal;
     text-align: left;
     color: #ffffff;
-    padding-top: 14px;
 }
 .block5__title2 {
     font-family: Graphik;
@@ -403,6 +402,7 @@ h1, h2, h3, p, a, span {
     letter-spacing: normal;
     text-align: left;
     color: #ffffff;
+    padding-top: 42px;
 }
 .block6 {
     background-color: #f8f8f8;
@@ -417,7 +417,7 @@ h1, h2, h3, p, a, span {
 .block6__sect {
     display: flex;
     flex-direction: row;
-    padding-bottom: 91px;
+    padding-bottom: 92px;
 }
 .block6__right {
     width: 72%;
@@ -432,7 +432,7 @@ h1, h2, h3, p, a, span {
     line-height: 2.23;
     letter-spacing: -0.4px;
     color: #454545;
-    padding-top: 54px;
+    padding-top: 52px;
     text-align: center;
     position: relative;
     right: 38px;
@@ -466,4 +466,146 @@ h1, h2, h3, p, a, span {
 }
 .block6-content {
     margin-top: 122px;
+}
+.block7-content {
+    margin: 91px 30px;
+}
+.block7__left {
+    width: 318px;
+    height: 318px;
+    background-image: url("..//images/william-brose.png");
+    margin-top: 8px;
+}
+.block7__right {
+    width: 68%;
+    padding-left: 20px;
+}
+.block7__wrap {
+    display: flex;
+    padding-top: 9px;
+}
+.block7__title1 {
+    font-family: Graphik;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: #395aa8;
+}
+.block7__title2 {
+    font-family: Graphik;
+    font-size: 26px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: -0.4px;
+    text-align: left;
+    color: #454545;
+}
+.bloc7__txt1 {
+    font-family: Graphik;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #454545;
+    padding-bottom: 14px;
+}
+.bloc7__txt2 {
+    font-family: Graphik;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #454545;
+}
+.block8 {
+    background-color: #f8f8f8;
+}
+.block8__title {
+    font-family: Graphik;
+    font-size: 26px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.23;
+    letter-spacing: -0.4px;
+    text-align: left;
+    color: #454545;
+}
+.block8-content {
+    padding-top: 47px;
+    padding-left: 29px;
+}
+.block8__wrap {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 72px;
+}
+.block8__left, .block8__right {
+    width: 50%;
+}
+.block8__left {
+    padding-right: 67px;
+}
+.block8__right {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.block8__title1 {
+    font-family: 'Graphik-semibold';
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: -0.1px;
+    text-align: left;
+    color: #454545;
+    line-height: 1.22;
+    padding-bottom: 4px;
+}
+.block8__txt1 {
+    font-family: Graphik;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: -0.1px;
+    text-align: left;
+    color: #454545;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.22;
+    padding-bottom: 3px;
+}
+.block8__txt2 {
+    font-family: Graphik;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.55;
+    letter-spacing: normal;
+    text-align: left;
+    color: #454545;
+    padding-top: 16px;
+    letter-spacing: -0.24px;
+}
+.footer {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 83px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5b7dcb;
 }
